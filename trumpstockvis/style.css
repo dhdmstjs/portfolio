@@ -1,0 +1,122 @@
+body {
+  font: 12px Arial;
+  background-color: #181818;
+}
+
+path.line{
+	stroke: steelblue;
+	stroke-width: 2;
+	fill: none;
+
+}
+
+.toolCircle {
+  white-space: initial;
+  text-overflow: initial;
+}
+
+.zoom {
+  cursor: move;
+  fill: none;
+  pointer-events: all;
+}
+input{
+	border-radius:5px;
+	padding:5px 10px;
+	background:#999;
+	border:0;
+	color:#fff;
+}
+
+
+/*Styling for the lines connecting the labels to the slices*/
+polyline{
+    opacity: .4;
+    stroke: white;
+    stroke-width: 2px;
+    fill: none;
+}
+
+/* Make the percentage on the text labels bold*/
+.labelName tspan {
+    font-style: normal;
+    stroke: white;
+    fill: white;
+    font-weight: 700;
+}
+
+
+
+
+div.tooltip {
+  position: absolute;
+  text-align: center;
+  width: 60px;
+  height: 58px;
+  padding: 2px;
+  font: 12px sans-serif;
+  background: lightsteelblue;
+  border: 0px;
+  border-radius: 8px;
+  pointer-events: none;
+}
+.line {
+  z-index: 100;
+}
+
+#inds{
+	position:absolute;
+	top:20px;
+	left:1100px;
+}
+
+#sent{
+	position:absolute;
+	top:20px;
+	left:1000px;
+}
+
+#showAll{
+	position:absolute;
+	top:670px;
+	left:980px;
+}
+#clearAll{
+	position:absolute;
+	top:670px;
+	left:1050px;
+}
+.mouse-line {
+  z-index: -1;
+}
+
+.axis path,
+.axis line,
+.axis text  {
+	fill: none;
+	stroke: #C1BEBE;
+	stroke-width: 1;
+	shape-rendering: crispEdges;
+}
+.image--fade {
+  opacity: 0.3;
+}
+
+.image--hover {
+  opacity: 1.0;
+}
+
+.line--fade {
+  opacity: 0.3;
+}
+
+.line--hover {
+  stroke-width: 5px;
+  opacity: 1.0;
+}
+
+.zoom {
+  cursor: move;
+  fill: none;
+  pointer-events: all;
+}

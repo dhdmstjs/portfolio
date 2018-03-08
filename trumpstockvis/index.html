@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Final Project</title>
+    <link rel=stylesheet href="style.css" type="text/css">
+    <script src='http://d3js.org/d3.v3.min.js' charset="utf-8"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" charset="utf-8"></script>
+		<script src="https://d3js.org/d3-zoom.v1.min.js"></script>
+		<script src="radar2.js"></script>
+		<script src="donut.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/1.3.0/d3-legend.js" charset="utf-8"></script>
+		<!-- <script src="donuttest.js"></script> -->
+		<br>
+		<select class="filters" id="inds">
+				<option value="industry" selected="selected">Industry</option>
+				<option value="Tech">Tech</option>
+				<option value="Communications">Comm</option>
+				<option value="Aerospace">Travel</option>
+				<option value="Automobile">Automobile</option>
+				<option value="Retail">Retail</option>
+				<option value="Finance">Finance</option>
+				<option value="Manufacturing">Manufacturing</option>
+				<option value="Publishing">Publishing</option>
+
+
+		</select>
+
+		<select class="filters" id="sent">
+				<option value="sentiment" selected="selected">Sentiment</option>
+				<option value="good">Positive</option>
+				<option value="bad">Negative</option>
+		</select>
+
+		<div id="showAll">
+			<input name="showAllButton"
+			 type="button"
+			 value="Show All"
+			 onclick="showAll()" />
+		</div>
+		<div id="clearAll">
+			<input name="clearAllButton"
+			 type="button"
+			 value="Clear All"
+			 onclick="clearAll()" />
+		</div>
+
+	</head>
+	<body>
+		<div class = "linegraph" style ="float:left;" id= "linegraph"></div>
+		<div id = "radar"></div>
+		<div id = "radar2"></div>
+		<div style ="position:absolute; top: 730px;" id = "chart"></div>
+		<script>
+		var radarChartOptions = {
+					  w: 550,
+					  h: 300,
+					  margin: {top: 30, right: 40, bottom: 40, left: 0},
+					  legendPosition: {x: 490, y: 20},
+					  maxValue: 1,
+					  wrapWidth: 60,
+					  levels: 4,
+					  roundStrokes: true,
+					  color: d3.scale.category10(),
+					  axisName: "reason",
+					  areaName: "device",
+					  value: "value"
+			};
+		  d3.json("data123.json", function(error, data){
+				console.log("data?",data);
+				RadarChart("#radar", data, radarChartOptions);
+			});
+
+		var donut = donutChart()
+		       .width(960)
+		       .height(500)
+		       .cornerRadius(3) // sets how rounded the corners are on each slice
+		       .padAngle(0.015) // effectively dictates the gap between slices
+		       .variable('Percentage')
+		       .category('Industry');
+
+		   d3.json('data123.json', function(error, data) {
+		       if (error) throw error;
+		       d3.select('#chart')
+		           .datum(data) // bind data to the div
+		           .call(donut); // draw chart in div
+		   });
+			//  d3.csv('datacircle.csv', function(error, data) {
+			// 		if (error) throw error;
+			// 		d3.select('#chart')
+			// 				.datum(data) // bind data to the div
+			// 				.call(donut); // draw chart in div
+			// });
+		</script>
+		<script src="script2.js"></script>
+
+	</body>
+</html>

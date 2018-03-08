@@ -1,0 +1,553 @@
+[
+  {
+    "key": "AMZN",
+    "values": [
+      {
+        "name": "Amazon",
+        "inds": "Tech",
+        "reason": "sentiment",
+        "value": -0.5
+      },
+      {
+        "name": "Amazon",
+        "inds": "Tech",
+        "reason": "day",
+        "value": -0.0172
+      },
+      {
+        "name": "Amazon",
+        "inds": "Tech",
+        "reason": "week",
+        "value": -0.04883
+      },
+      {
+        "name": "Amazon",
+        "inds": "Tech",
+        "reason": "month",
+        "value": -0.07845
+      }
+    ]
+  },
+  {
+    "key": "VZ",
+    "values": [
+      {
+        "name": "Verizon",
+        "inds": "Communications",
+        "reason": "sentiment",
+        "value": -0.3
+      },
+      {
+        "name": "Verizon",
+        "inds": "Communications",
+        "reason": "day",
+        "value": 0.00485
+      },
+      {
+        "name": "Verizon",
+        "inds": "Communications",
+        "reason": "week",
+        "value": 0.00263
+      },
+      {
+        "name": "Verizon",
+        "inds": "Communications",
+        "reason": "month",
+        "value": -0.0334
+      }
+    ]
+  },
+  {
+    "key": "BA",
+    "values": [
+      {
+        "name": "Boeing",
+        "inds": "Aerospace",
+        "reason": "sentiment",
+        "value": -0.1
+      },
+      {
+        "name": "Boeing",
+        "inds": "Aerospace",
+        "reason": "day",
+        "value": 0.00550
+      },
+      {
+        "name": "Boeing",
+        "inds": "Aerospace",
+        "reason": "week",
+        "value": 0.05476
+      },
+      {
+        "name": "Boeing",
+        "inds": "Aerospace",
+        "reason": "month",
+        "value": 0.05396
+      }
+    ]
+  },
+  {
+    "key": "GM",
+    "values": [
+      {
+        "name": "General Motors",
+        "inds": "Automobile",
+        "reason": "sentiment",
+        "value": 0
+      },
+      {
+        "name": "General Motors",
+        "inds": "Automobile",
+        "reason": "day",
+        "value": 0.01772
+      },
+      {
+        "name": "General Motors",
+        "inds": "Automobile",
+        "reason": "week",
+        "value": 0.03459
+      },
+      {
+        "name": "General Motors",
+        "inds": "Automobile",
+        "reason": "month",
+        "value": 0.02687
+      }
+    ]
+  },
+  {
+    "key": "GS",
+    "values": [
+      {
+        "name": "Goldman Sachs",
+        "inds": "Finance",
+        "reason": "sentiment",
+        "value": -0.2
+      },
+      {
+        "name": "Goldman Sachs",
+        "inds": "Finance",
+        "reason": "day",
+        "value": -0.02195
+      },
+      {
+        "name": "Goldman Sachs",
+        "inds": "Finance",
+        "reason": "week",
+        "value": -0.03903
+      },
+      {
+        "name": "Goldman Sachs",
+        "inds": "Finance",
+        "reason": "month",
+        "value": -0.06702
+      }
+    ]
+  },
+  {
+    "key": "GOOGL",
+    "values": [
+      {
+        "name": "Google",
+        "inds": "Tech",
+        "reason": "sentiment",
+        "value": -0.4
+      },
+      {
+        "name": "Google",
+        "inds": "Tech",
+        "reason": "day",
+        "value": -0.01405
+      },
+      {
+        "name": "Google",
+        "inds": "Tech",
+        "reason": "week",
+        "value": -0.033413
+      },
+      {
+        "name": "Google",
+        "inds": "Tech",
+        "reason": "month",
+        "value": -0.04052
+      }
+    ]
+  },
+  {
+    "key": "HRB",
+    "values": [
+      {
+        "name": "H&R Block",
+        "inds": "Finance",
+        "reason": "sentiment",
+        "value": -0.7
+      },
+      {
+        "name": "H&R Block",
+        "inds": "Finance",
+        "reason": "day",
+        "value": -0.00395
+      },
+      {
+        "name": "H&R Block",
+        "inds": "Finance",
+        "reason": "week",
+        "value": 0.042909
+      },
+      {
+        "name": "H&R Block",
+        "inds": "Finance",
+        "reason": "month",
+        "value": 0.06086
+      }
+    ]
+  },
+  {
+    "key": "HPQ",
+    "values": [
+      {
+        "name": "HP",
+        "inds": "Tech",
+        "reason": "sentiment",
+        "value": -0.4
+      },
+      {
+        "name": "HP",
+        "inds": "Tech",
+        "reason": "day",
+        "value": -0.048
+      },
+      {
+        "name": "HP",
+        "inds": "Tech",
+        "reason": "week",
+        "value": -0.076
+      },
+      {
+        "name": "HP",
+        "inds": "Tech",
+        "reason": "month",
+        "value": 0.05018
+      }
+    ]
+  },
+  {
+    "key": "M",
+    "values": [
+      {
+        "name": "Macys",
+        "inds": "Retail",
+        "reason": "sentiment",
+        "value": -0.2
+      },
+      {
+        "name": "Macys",
+        "inds": "Retail",
+        "reason": "day",
+        "value": 0.00192
+      },
+      {
+        "name": "Macys",
+        "inds": "Retail",
+        "reason": "week",
+        "value": -0.00858
+      },
+      {
+        "name": "Macys",
+        "inds": "Retail",
+        "reason": "month",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "key": "M",
+    "values": [
+      {
+        "name": "Macys",
+        "inds": "Retail",
+        "reason": "sentiment",
+        "value": 0.3
+      },
+      {
+        "name": "Macys",
+        "inds": "Retail",
+        "reason": "day",
+        "value": 0.014809
+      },
+      {
+        "name": "Macys",
+        "inds": "Retail",
+        "reason": "week",
+        "value": -0.0329955
+      },
+      {
+        "name": "Macys",
+        "inds": "Retail",
+        "reason": "month",
+        "value": -0.1049623
+      }
+    ]
+  },
+  {
+    "key": "NWSA",
+    "values": [
+      {
+        "name": "New York Post",
+        "inds": "Publishing",
+        "reason": "sentiment",
+        "value": 0
+      },
+      {
+        "name": "New York Post",
+        "inds": "Publishing",
+        "reason": "day",
+        "value": -0.0233918
+      },
+      {
+        "name": "New York Post",
+        "inds": "Publishing",
+        "reason": "week",
+        "value": -0.0284054
+      },
+      {
+        "name": "New York Post",
+        "inds": "Publishing",
+        "reason": "month",
+        "value": 0.1181407
+      }
+    ]
+  },
+  {
+    "key": "NYT",
+    "values": [
+      {
+        "name": "New York Times",
+        "inds": "Publishing",
+        "reason": "sentiment",
+        "value": -0.6
+      },
+      {
+        "name": "New York Times",
+        "inds": "Publishing",
+        "reason": "day",
+        "value": 0.0077519
+      },
+      {
+        "name": "New York Times",
+        "inds": "Publishing",
+        "reason": "week",
+        "value": 0.0155039
+      },
+      {
+        "name": "New York Times",
+        "inds": "Publishing",
+        "reason": "month",
+        "value": -0.0426357
+      }
+    ]
+  },
+  {
+    "key": "JWN",
+    "values": [
+      {
+        "name": "Nordstrom",
+        "inds": "Retail",
+        "reason": "sentiment",
+        "value": -0.2
+      },
+      {
+        "name": "Nordstrom",
+        "inds": "Retail",
+        "reason": "day",
+        "value": 0.0536389
+      },
+      {
+        "name": "Nordstrom",
+        "inds": "Retail",
+        "reason": "week",
+        "value": 0.0789225
+      },
+      {
+        "name": "Nordstrom",
+        "inds": "Retail",
+        "reason": "month",
+        "value": 0.0430057
+      }
+    ]
+  },
+  {
+    "key": "RXN",
+    "values": [
+      {
+        "name": "Rexnord",
+        "inds": "Manufacturing",
+        "reason": "sentiment",
+        "value": -0.1
+      },
+      {
+        "name": "Rexnord",
+        "inds": "Manufacturing",
+        "reason": "day",
+        "value": -0.0200957
+      },
+      {
+        "name": "Rexnord",
+        "inds": "Manufacturing",
+        "reason": "week",
+        "value": 0.0114833
+      },
+      {
+        "name": "Rexnord",
+        "inds": "Manufacturing",
+        "reason": "month",
+        "value": -0.0497608
+      }
+    ]
+  },
+  {
+    "key": "TMUS",
+    "values": [
+      {
+        "name": "T-Mobile",
+        "inds": "Communications",
+        "reason": "sentiment",
+        "value": -0.1
+      },
+      {
+        "name": "T-Mobile",
+        "inds": "Communications",
+        "reason": "day",
+        "value": -0.0075857
+      },
+      {
+        "name": "T-Mobile",
+        "inds": "Communications",
+        "reason": "week",
+        "value": 0.0062778
+      },
+      {
+        "name": "T-Mobile",
+        "inds": "Communications",
+        "reason": "month",
+        "value": 0.0023542
+      }
+    ]
+  },
+  {
+    "key": "TWTR",
+    "values": [
+      {
+        "name": "Twitter",
+        "inds": "Tech",
+        "reason": "sentiment",
+        "value": -0.4
+      },
+      {
+        "name": "Twitter",
+        "inds": "Tech",
+        "reason": "day",
+        "value": 0.0107649
+      },
+      {
+        "name": "Twitter",
+        "inds": "Tech",
+        "reason": "week",
+        "value": 0.0260623
+      },
+      {
+        "name": "Twitter",
+        "inds": "Tech",
+        "reason": "month",
+        "value": 0.0311615
+      }
+    ]
+  },
+  {
+    "key": "FB",
+    "values": [
+      {
+        "name": "Facebook",
+        "inds": "Tech",
+        "reason": "sentiment",
+        "value": -0.4
+      },
+      {
+        "name": "Facebook",
+        "inds": "Tech",
+        "reason": "day",
+        "value": -0.004545
+      },
+      {
+        "name": "Facebook",
+        "inds": "Tech",
+        "reason": "week",
+        "value": -0.069540
+      },
+      {
+        "name": "Facebook",
+        "inds": "Tech",
+        "reason": "month",
+        "value": -0.088554
+      }
+    ]
+  },
+  {
+    "key": "UTX",
+    "values": [
+      {
+        "name": "Carrier",
+        "inds": "Manufacturing",
+        "reason": "sentiment",
+        "value": 0.3
+      },
+      {
+        "name": "Carrier",
+        "inds": "Manufacturing",
+        "reason": "day",
+        "value": 0.0000034294
+      },
+      {
+        "name": "Carrier",
+        "inds": "Manufacturing",
+        "reason": "week",
+        "value": 0.015463
+      },
+      {
+        "name": "Carrier",
+        "inds": "Manufacturing",
+        "reason": "month",
+        "value": 0.023981
+      }
+    ]
+  },
+  {
+    "key": "F",
+    "values": [
+      {
+        "name": "Ford",
+        "inds": "Automobile",
+        "reason": "sentiment",
+        "value": 0
+      },
+      {
+        "name": "Ford",
+        "inds": "Automobile",
+        "reason": "day",
+        "value": -0.007037
+      },
+      {
+        "name": "Ford",
+        "inds": "Automobile",
+        "reason": "week",
+        "value": -0.028147
+      },
+      {
+        "name": "Ford",
+        "inds": "Automobile",
+        "reason": "month",
+        "value": -0.030493
+      }
+    ]
+  }
+]
