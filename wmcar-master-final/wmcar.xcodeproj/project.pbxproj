@@ -1,0 +1,897 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		180EB4D51DE2132100DCD7AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 180EB4D41DE2132100DCD7AA /* main.m */; };
+		180EB4D81DE2132100DCD7AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 180EB4D71DE2132100DCD7AA /* AppDelegate.m */; };
+		180EB4DE1DE2132100DCD7AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180EB4DC1DE2132100DCD7AA /* Main.storyboard */; };
+		180EB4E01DE2132100DCD7AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 180EB4DF1DE2132100DCD7AA /* Assets.xcassets */; };
+		180EB4E31DE2132100DCD7AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180EB4E11DE2132100DCD7AA /* LaunchScreen.storyboard */; };
+		180EB4EE1DE2132100DCD7AA /* wmcarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 180EB4ED1DE2132100DCD7AA /* wmcarTests.m */; };
+		180EB4F91DE2132100DCD7AA /* wmcarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 180EB4F81DE2132100DCD7AA /* wmcarUITests.m */; };
+		180EB5091DE216F100DCD7AA /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 180EB5081DE216F100DCD7AA /* SWRevealViewController.m */; };
+		180EB5121DE22F1900DCD7AA /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 180EB5111DE22F1900DCD7AA /* MapViewController.m */; };
+		180EB51B1DE387E400DCD7AA /* SettingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 180EB51A1DE387E400DCD7AA /* SettingTableViewController.m */; };
+		180EB51D1DE38CD300DCD7AA /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 180EB51C1DE38CD300DCD7AA /* settings.png */; };
+		180EB5241DE4FA8A00DCD7AA /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 180EB5231DE4FA8A00DCD7AA /* MapKit.framework */; };
+		180EB52A1DE9DA7600DCD7AA /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 180EB5291DE9DA7600DCD7AA /* camera.png */; };
+		180EB52D1DE9DD8F00DCD7AA /* NoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 180EB52C1DE9DD8F00DCD7AA /* NoteViewController.m */; };
+		180EB52F1DEA48E000DCD7AA /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 180EB52E1DEA48E000DCD7AA /* CoreLocation.framework */; };
+		1815C3061DECC99800CEF780 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 1815C3051DECC99800CEF780 /* Model.m */; };
+		1815C3091DEF678500CEF780 /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = 1815C3081DEF678500CEF780 /* add.png */; };
+		182E6C101DFD0D690060DD3B /* success.wav in Resources */ = {isa = PBXBuildFile; fileRef = 182E6C0F1DFD0D690060DD3B /* success.wav */; };
+		182E6C121DFD0F0F0060DD3B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 182E6C111DFD0F0F0060DD3B /* AVFoundation.framework */; };
+		182E6C141DFD116E0060DD3B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 182E6C131DFD116E0060DD3B /* AudioToolbox.framework */; };
+		182E6C161DFD12F00060DD3B /* launch.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 182E6C151DFD12F00060DD3B /* launch.jpg */; };
+		189ACFC81DFF36FF0073C2ED /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189ACFC61DFF36FF0073C2ED /* Interface.storyboard */; };
+		189ACFCA1DFF36FF0073C2ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189ACFC91DFF36FF0073C2ED /* Assets.xcassets */; };
+		189ACFD11DFF36FF0073C2ED /* wmcarWK Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 189ACFD01DFF36FF0073C2ED /* wmcarWK Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		189ACFD71DFF36FF0073C2ED /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189ACFD61DFF36FF0073C2ED /* InterfaceController.m */; };
+		189ACFDA1DFF36FF0073C2ED /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 189ACFD91DFF36FF0073C2ED /* ExtensionDelegate.m */; };
+		189ACFDC1DFF36FF0073C2ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189ACFDB1DFF36FF0073C2ED /* Assets.xcassets */; };
+		189ACFE01DFF36FF0073C2ED /* wmcarWK.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 189ACFC41DFF36FF0073C2ED /* wmcarWK.app */; };
+		18ECDC5D1E09ECAB007ED8C0 /* photo.png in Resources */ = {isa = PBXBuildFile; fileRef = 18ECDC5C1E09ECAB007ED8C0 /* photo.png */; };
+		18ECDC5F1E09F845007ED8C0 /* noimage.png in Resources */ = {isa = PBXBuildFile; fileRef = 18ECDC5E1E09F845007ED8C0 /* noimage.png */; };
+		18ECDC651E0A1090007ED8C0 /* DisplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18ECDC641E0A1090007ED8C0 /* DisplayViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		180EB4EA1DE2132100DCD7AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 180EB4C81DE2132100DCD7AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 180EB4CF1DE2132100DCD7AA;
+			remoteInfo = wmcar;
+		};
+		180EB4F51DE2132100DCD7AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 180EB4C81DE2132100DCD7AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 180EB4CF1DE2132100DCD7AA;
+			remoteInfo = wmcar;
+		};
+		189ACFD21DFF36FF0073C2ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 180EB4C81DE2132100DCD7AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 189ACFCF1DFF36FF0073C2ED;
+			remoteInfo = "wmcarWK Extension";
+		};
+		189ACFDE1DFF36FF0073C2ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 180EB4C81DE2132100DCD7AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 189ACFC31DFF36FF0073C2ED;
+			remoteInfo = wmcarWK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		189ACFE61DFF36FF0073C2ED /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				189ACFD11DFF36FF0073C2ED /* wmcarWK Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189ACFE81DFF36FF0073C2ED /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				189ACFE01DFF36FF0073C2ED /* wmcarWK.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		180EB4D01DE2132100DCD7AA /* wmcar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wmcar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		180EB4D41DE2132100DCD7AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		180EB4D61DE2132100DCD7AA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		180EB4D71DE2132100DCD7AA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		180EB4DD1DE2132100DCD7AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		180EB4DF1DE2132100DCD7AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		180EB4E21DE2132100DCD7AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		180EB4E41DE2132100DCD7AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		180EB4E91DE2132100DCD7AA /* wmcarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wmcarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		180EB4ED1DE2132100DCD7AA /* wmcarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wmcarTests.m; sourceTree = "<group>"; };
+		180EB4EF1DE2132100DCD7AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		180EB4F41DE2132100DCD7AA /* wmcarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wmcarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		180EB4F81DE2132100DCD7AA /* wmcarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wmcarUITests.m; sourceTree = "<group>"; };
+		180EB4FA1DE2132100DCD7AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		180EB5071DE216F100DCD7AA /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = SWRevealViewController/SWRevealViewController.h; sourceTree = SOURCE_ROOT; };
+		180EB5081DE216F100DCD7AA /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = SWRevealViewController/SWRevealViewController.m; sourceTree = SOURCE_ROOT; };
+		180EB5101DE22F1900DCD7AA /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		180EB5111DE22F1900DCD7AA /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		180EB5191DE387E400DCD7AA /* SettingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingTableViewController.h; sourceTree = "<group>"; };
+		180EB51A1DE387E400DCD7AA /* SettingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingTableViewController.m; sourceTree = "<group>"; };
+		180EB51C1DE38CD300DCD7AA /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
+		180EB5231DE4FA8A00DCD7AA /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		180EB5291DE9DA7600DCD7AA /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = "<group>"; };
+		180EB52B1DE9DD8F00DCD7AA /* NoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteViewController.h; sourceTree = "<group>"; };
+		180EB52C1DE9DD8F00DCD7AA /* NoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteViewController.m; sourceTree = "<group>"; };
+		180EB52E1DEA48E000DCD7AA /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		1815C3041DECC99800CEF780 /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		1815C3051DECC99800CEF780 /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		1815C3081DEF678500CEF780 /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add.png; sourceTree = "<group>"; };
+		182E6C0F1DFD0D690060DD3B /* success.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = success.wav; sourceTree = "<group>"; };
+		182E6C111DFD0F0F0060DD3B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		182E6C131DFD116E0060DD3B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		182E6C151DFD12F00060DD3B /* launch.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = launch.jpg; sourceTree = "<group>"; };
+		189ACFC41DFF36FF0073C2ED /* wmcarWK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wmcarWK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		189ACFC71DFF36FF0073C2ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		189ACFC91DFF36FF0073C2ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		189ACFCB1DFF36FF0073C2ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		189ACFD01DFF36FF0073C2ED /* wmcarWK Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "wmcarWK Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		189ACFD51DFF36FF0073C2ED /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		189ACFD61DFF36FF0073C2ED /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		189ACFD81DFF36FF0073C2ED /* ExtensionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtensionDelegate.h; sourceTree = "<group>"; };
+		189ACFD91DFF36FF0073C2ED /* ExtensionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionDelegate.m; sourceTree = "<group>"; };
+		189ACFDB1DFF36FF0073C2ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		189ACFDD1DFF36FF0073C2ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18ECDC5C1E09ECAB007ED8C0 /* photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo.png; sourceTree = "<group>"; };
+		18ECDC5E1E09F845007ED8C0 /* noimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noimage.png; sourceTree = "<group>"; };
+		18ECDC631E0A1090007ED8C0 /* DisplayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayViewController.h; sourceTree = "<group>"; };
+		18ECDC641E0A1090007ED8C0 /* DisplayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		180EB4CD1DE2132100DCD7AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182E6C141DFD116E0060DD3B /* AudioToolbox.framework in Frameworks */,
+				182E6C121DFD0F0F0060DD3B /* AVFoundation.framework in Frameworks */,
+				180EB52F1DEA48E000DCD7AA /* CoreLocation.framework in Frameworks */,
+				180EB5241DE4FA8A00DCD7AA /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180EB4E61DE2132100DCD7AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180EB4F11DE2132100DCD7AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189ACFCD1DFF36FF0073C2ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		180EB4C71DE2132100DCD7AA = {
+			isa = PBXGroup;
+			children = (
+				180EB5061DE2155E00DCD7AA /* SWRevealViewController */,
+				180EB4D21DE2132100DCD7AA /* wmcar */,
+				180EB4EC1DE2132100DCD7AA /* wmcarTests */,
+				180EB4F71DE2132100DCD7AA /* wmcarUITests */,
+				189ACFC51DFF36FF0073C2ED /* wmcarWK */,
+				189ACFD41DFF36FF0073C2ED /* wmcarWK Extension */,
+				180EB4D11DE2132100DCD7AA /* Products */,
+				180EB5221DE4FA8A00DCD7AA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		180EB4D11DE2132100DCD7AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				180EB4D01DE2132100DCD7AA /* wmcar.app */,
+				180EB4E91DE2132100DCD7AA /* wmcarTests.xctest */,
+				180EB4F41DE2132100DCD7AA /* wmcarUITests.xctest */,
+				189ACFC41DFF36FF0073C2ED /* wmcarWK.app */,
+				189ACFD01DFF36FF0073C2ED /* wmcarWK Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		180EB4D21DE2132100DCD7AA /* wmcar */ = {
+			isa = PBXGroup;
+			children = (
+				1815C3071DECC9A500CEF780 /* Views */,
+				180EB5211DE4D0D600DCD7AA /* Assests */,
+				180EB4D61DE2132100DCD7AA /* AppDelegate.h */,
+				180EB4D71DE2132100DCD7AA /* AppDelegate.m */,
+				180EB4E11DE2132100DCD7AA /* LaunchScreen.storyboard */,
+				180EB4DC1DE2132100DCD7AA /* Main.storyboard */,
+				1815C3041DECC99800CEF780 /* Model.h */,
+				1815C3051DECC99800CEF780 /* Model.m */,
+				180EB4DF1DE2132100DCD7AA /* Assets.xcassets */,
+				180EB4E41DE2132100DCD7AA /* Info.plist */,
+				180EB4D31DE2132100DCD7AA /* Supporting Files */,
+			);
+			path = wmcar;
+			sourceTree = "<group>";
+		};
+		180EB4D31DE2132100DCD7AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				180EB4D41DE2132100DCD7AA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		180EB4EC1DE2132100DCD7AA /* wmcarTests */ = {
+			isa = PBXGroup;
+			children = (
+				180EB4ED1DE2132100DCD7AA /* wmcarTests.m */,
+				180EB4EF1DE2132100DCD7AA /* Info.plist */,
+			);
+			path = wmcarTests;
+			sourceTree = "<group>";
+		};
+		180EB4F71DE2132100DCD7AA /* wmcarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				180EB4F81DE2132100DCD7AA /* wmcarUITests.m */,
+				180EB4FA1DE2132100DCD7AA /* Info.plist */,
+			);
+			path = wmcarUITests;
+			sourceTree = "<group>";
+		};
+		180EB5061DE2155E00DCD7AA /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				180EB5071DE216F100DCD7AA /* SWRevealViewController.h */,
+				180EB5081DE216F100DCD7AA /* SWRevealViewController.m */,
+			);
+			name = SWRevealViewController;
+			path = wmcar;
+			sourceTree = "<group>";
+		};
+		180EB5211DE4D0D600DCD7AA /* Assests */ = {
+			isa = PBXGroup;
+			children = (
+				18ECDC5E1E09F845007ED8C0 /* noimage.png */,
+				18ECDC5C1E09ECAB007ED8C0 /* photo.png */,
+				182E6C151DFD12F00060DD3B /* launch.jpg */,
+				182E6C0F1DFD0D690060DD3B /* success.wav */,
+				1815C3081DEF678500CEF780 /* add.png */,
+				180EB5291DE9DA7600DCD7AA /* camera.png */,
+				180EB51C1DE38CD300DCD7AA /* settings.png */,
+			);
+			name = Assests;
+			sourceTree = "<group>";
+		};
+		180EB5221DE4FA8A00DCD7AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				182E6C131DFD116E0060DD3B /* AudioToolbox.framework */,
+				182E6C111DFD0F0F0060DD3B /* AVFoundation.framework */,
+				180EB52E1DEA48E000DCD7AA /* CoreLocation.framework */,
+				180EB5231DE4FA8A00DCD7AA /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1815C3071DECC9A500CEF780 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				180EB52B1DE9DD8F00DCD7AA /* NoteViewController.h */,
+				180EB52C1DE9DD8F00DCD7AA /* NoteViewController.m */,
+				180EB5191DE387E400DCD7AA /* SettingTableViewController.h */,
+				180EB51A1DE387E400DCD7AA /* SettingTableViewController.m */,
+				180EB5101DE22F1900DCD7AA /* MapViewController.h */,
+				180EB5111DE22F1900DCD7AA /* MapViewController.m */,
+				18ECDC631E0A1090007ED8C0 /* DisplayViewController.h */,
+				18ECDC641E0A1090007ED8C0 /* DisplayViewController.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		189ACFC51DFF36FF0073C2ED /* wmcarWK */ = {
+			isa = PBXGroup;
+			children = (
+				189ACFC61DFF36FF0073C2ED /* Interface.storyboard */,
+				189ACFC91DFF36FF0073C2ED /* Assets.xcassets */,
+				189ACFCB1DFF36FF0073C2ED /* Info.plist */,
+			);
+			path = wmcarWK;
+			sourceTree = "<group>";
+		};
+		189ACFD41DFF36FF0073C2ED /* wmcarWK Extension */ = {
+			isa = PBXGroup;
+			children = (
+				189ACFD51DFF36FF0073C2ED /* InterfaceController.h */,
+				189ACFD61DFF36FF0073C2ED /* InterfaceController.m */,
+				189ACFD81DFF36FF0073C2ED /* ExtensionDelegate.h */,
+				189ACFD91DFF36FF0073C2ED /* ExtensionDelegate.m */,
+				189ACFDB1DFF36FF0073C2ED /* Assets.xcassets */,
+				189ACFDD1DFF36FF0073C2ED /* Info.plist */,
+			);
+			path = "wmcarWK Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		180EB4CF1DE2132100DCD7AA /* wmcar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 180EB4FD1DE2132100DCD7AA /* Build configuration list for PBXNativeTarget "wmcar" */;
+			buildPhases = (
+				180EB4CC1DE2132100DCD7AA /* Sources */,
+				180EB4CD1DE2132100DCD7AA /* Frameworks */,
+				180EB4CE1DE2132100DCD7AA /* Resources */,
+				189ACFE81DFF36FF0073C2ED /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				189ACFDF1DFF36FF0073C2ED /* PBXTargetDependency */,
+			);
+			name = wmcar;
+			productName = wmcar;
+			productReference = 180EB4D01DE2132100DCD7AA /* wmcar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		180EB4E81DE2132100DCD7AA /* wmcarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 180EB5001DE2132100DCD7AA /* Build configuration list for PBXNativeTarget "wmcarTests" */;
+			buildPhases = (
+				180EB4E51DE2132100DCD7AA /* Sources */,
+				180EB4E61DE2132100DCD7AA /* Frameworks */,
+				180EB4E71DE2132100DCD7AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				180EB4EB1DE2132100DCD7AA /* PBXTargetDependency */,
+			);
+			name = wmcarTests;
+			productName = wmcarTests;
+			productReference = 180EB4E91DE2132100DCD7AA /* wmcarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		180EB4F31DE2132100DCD7AA /* wmcarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 180EB5031DE2132100DCD7AA /* Build configuration list for PBXNativeTarget "wmcarUITests" */;
+			buildPhases = (
+				180EB4F01DE2132100DCD7AA /* Sources */,
+				180EB4F11DE2132100DCD7AA /* Frameworks */,
+				180EB4F21DE2132100DCD7AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				180EB4F61DE2132100DCD7AA /* PBXTargetDependency */,
+			);
+			name = wmcarUITests;
+			productName = wmcarUITests;
+			productReference = 180EB4F41DE2132100DCD7AA /* wmcarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		189ACFC31DFF36FF0073C2ED /* wmcarWK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 189ACFE71DFF36FF0073C2ED /* Build configuration list for PBXNativeTarget "wmcarWK" */;
+			buildPhases = (
+				189ACFC21DFF36FF0073C2ED /* Resources */,
+				189ACFE61DFF36FF0073C2ED /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				189ACFD31DFF36FF0073C2ED /* PBXTargetDependency */,
+			);
+			name = wmcarWK;
+			productName = wmcarWK;
+			productReference = 189ACFC41DFF36FF0073C2ED /* wmcarWK.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		189ACFCF1DFF36FF0073C2ED /* wmcarWK Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 189ACFE51DFF36FF0073C2ED /* Build configuration list for PBXNativeTarget "wmcarWK Extension" */;
+			buildPhases = (
+				189ACFCC1DFF36FF0073C2ED /* Sources */,
+				189ACFCD1DFF36FF0073C2ED /* Frameworks */,
+				189ACFCE1DFF36FF0073C2ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "wmcarWK Extension";
+			productName = "wmcarWK Extension";
+			productReference = 189ACFD01DFF36FF0073C2ED /* wmcarWK Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		180EB4C81DE2132100DCD7AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Ada;
+				TargetAttributes = {
+					180EB4CF1DE2132100DCD7AA = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					180EB4E81DE2132100DCD7AA = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 180EB4CF1DE2132100DCD7AA;
+					};
+					180EB4F31DE2132100DCD7AA = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 180EB4CF1DE2132100DCD7AA;
+					};
+					189ACFC31DFF36FF0073C2ED = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					189ACFCF1DFF36FF0073C2ED = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 180EB4CB1DE2132100DCD7AA /* Build configuration list for PBXProject "wmcar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 180EB4C71DE2132100DCD7AA;
+			productRefGroup = 180EB4D11DE2132100DCD7AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				180EB4CF1DE2132100DCD7AA /* wmcar */,
+				180EB4E81DE2132100DCD7AA /* wmcarTests */,
+				180EB4F31DE2132100DCD7AA /* wmcarUITests */,
+				189ACFC31DFF36FF0073C2ED /* wmcarWK */,
+				189ACFCF1DFF36FF0073C2ED /* wmcarWK Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		180EB4CE1DE2132100DCD7AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18ECDC5F1E09F845007ED8C0 /* noimage.png in Resources */,
+				180EB51D1DE38CD300DCD7AA /* settings.png in Resources */,
+				180EB4E31DE2132100DCD7AA /* LaunchScreen.storyboard in Resources */,
+				180EB4E01DE2132100DCD7AA /* Assets.xcassets in Resources */,
+				182E6C101DFD0D690060DD3B /* success.wav in Resources */,
+				182E6C161DFD12F00060DD3B /* launch.jpg in Resources */,
+				18ECDC5D1E09ECAB007ED8C0 /* photo.png in Resources */,
+				1815C3091DEF678500CEF780 /* add.png in Resources */,
+				180EB4DE1DE2132100DCD7AA /* Main.storyboard in Resources */,
+				180EB52A1DE9DA7600DCD7AA /* camera.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180EB4E71DE2132100DCD7AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180EB4F21DE2132100DCD7AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189ACFC21DFF36FF0073C2ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189ACFCA1DFF36FF0073C2ED /* Assets.xcassets in Resources */,
+				189ACFC81DFF36FF0073C2ED /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189ACFCE1DFF36FF0073C2ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189ACFDC1DFF36FF0073C2ED /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		180EB4CC1DE2132100DCD7AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180EB4D81DE2132100DCD7AA /* AppDelegate.m in Sources */,
+				180EB4D51DE2132100DCD7AA /* main.m in Sources */,
+				180EB5121DE22F1900DCD7AA /* MapViewController.m in Sources */,
+				180EB51B1DE387E400DCD7AA /* SettingTableViewController.m in Sources */,
+				1815C3061DECC99800CEF780 /* Model.m in Sources */,
+				180EB52D1DE9DD8F00DCD7AA /* NoteViewController.m in Sources */,
+				180EB5091DE216F100DCD7AA /* SWRevealViewController.m in Sources */,
+				18ECDC651E0A1090007ED8C0 /* DisplayViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180EB4E51DE2132100DCD7AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180EB4EE1DE2132100DCD7AA /* wmcarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180EB4F01DE2132100DCD7AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180EB4F91DE2132100DCD7AA /* wmcarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189ACFCC1DFF36FF0073C2ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189ACFDA1DFF36FF0073C2ED /* ExtensionDelegate.m in Sources */,
+				189ACFD71DFF36FF0073C2ED /* InterfaceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		180EB4EB1DE2132100DCD7AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 180EB4CF1DE2132100DCD7AA /* wmcar */;
+			targetProxy = 180EB4EA1DE2132100DCD7AA /* PBXContainerItemProxy */;
+		};
+		180EB4F61DE2132100DCD7AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 180EB4CF1DE2132100DCD7AA /* wmcar */;
+			targetProxy = 180EB4F51DE2132100DCD7AA /* PBXContainerItemProxy */;
+		};
+		189ACFD31DFF36FF0073C2ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 189ACFCF1DFF36FF0073C2ED /* wmcarWK Extension */;
+			targetProxy = 189ACFD21DFF36FF0073C2ED /* PBXContainerItemProxy */;
+		};
+		189ACFDF1DFF36FF0073C2ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 189ACFC31DFF36FF0073C2ED /* wmcarWK */;
+			targetProxy = 189ACFDE1DFF36FF0073C2ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		180EB4DC1DE2132100DCD7AA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				180EB4DD1DE2132100DCD7AA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		180EB4E11DE2132100DCD7AA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				180EB4E21DE2132100DCD7AA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		189ACFC61DFF36FF0073C2ED /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				189ACFC71DFF36FF0073C2ED /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		180EB4FB1DE2132100DCD7AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		180EB4FC1DE2132100DCD7AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		180EB4FE1DE2132100DCD7AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = wmcar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nyu.edu.wmcar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		180EB4FF1DE2132100DCD7AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = wmcar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nyu.edu.wmcar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		180EB5011DE2132100DCD7AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = wmcarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nyu.edu.wmcarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wmcar.app/wmcar";
+			};
+			name = Debug;
+		};
+		180EB5021DE2132100DCD7AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = wmcarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nyu.edu.wmcarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wmcar.app/wmcar";
+			};
+			name = Release;
+		};
+		180EB5041DE2132100DCD7AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = wmcarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nyu.edu.wmcarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = wmcar;
+			};
+			name = Debug;
+		};
+		180EB5051DE2132100DCD7AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = wmcarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nyu.edu.wmcarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = wmcar;
+			};
+			name = Release;
+		};
+		189ACFE11DFF36FF0073C2ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = wmcarWK_Extension;
+				INFOPLIST_FILE = wmcarWK/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = nyu.edu.wmcar.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		189ACFE21DFF36FF0073C2ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = wmcarWK_Extension;
+				INFOPLIST_FILE = wmcarWK/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = nyu.edu.wmcar.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		189ACFE31DFF36FF0073C2ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				INFOPLIST_FILE = "wmcarWK Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nyu.edu.wmcar.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		189ACFE41DFF36FF0073C2ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				INFOPLIST_FILE = "wmcarWK Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nyu.edu.wmcar.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		180EB4CB1DE2132100DCD7AA /* Build configuration list for PBXProject "wmcar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180EB4FB1DE2132100DCD7AA /* Debug */,
+				180EB4FC1DE2132100DCD7AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		180EB4FD1DE2132100DCD7AA /* Build configuration list for PBXNativeTarget "wmcar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180EB4FE1DE2132100DCD7AA /* Debug */,
+				180EB4FF1DE2132100DCD7AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		180EB5001DE2132100DCD7AA /* Build configuration list for PBXNativeTarget "wmcarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180EB5011DE2132100DCD7AA /* Debug */,
+				180EB5021DE2132100DCD7AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		180EB5031DE2132100DCD7AA /* Build configuration list for PBXNativeTarget "wmcarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180EB5041DE2132100DCD7AA /* Debug */,
+				180EB5051DE2132100DCD7AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		189ACFE51DFF36FF0073C2ED /* Build configuration list for PBXNativeTarget "wmcarWK Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189ACFE31DFF36FF0073C2ED /* Debug */,
+				189ACFE41DFF36FF0073C2ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		189ACFE71DFF36FF0073C2ED /* Build configuration list for PBXNativeTarget "wmcarWK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189ACFE11DFF36FF0073C2ED /* Debug */,
+				189ACFE21DFF36FF0073C2ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 180EB4C81DE2132100DCD7AA /* Project object */;
+}
