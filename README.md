@@ -1,2 +1,2 @@
 # portfolio
-current portfolio of a Senior student at NYU
+current portfolio of an NYU graduate
