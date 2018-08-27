@@ -1,0 +1,3 @@
+[submodule "dbproject"]
+	path = dbproject
+	url = https://github.com/dhdmstjs/portfolio.git
