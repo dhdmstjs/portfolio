@@ -1,9 +1,9 @@
 [submodule "dbproject"]
 	path = dbproject
-	url = https://github.com/dhdmstjs/portfolio.git
+	url = ../../Documents/aDatabases/dbproject/
 [submodule "attendancetracker"]
 	path = attendancetracker
-	url = https://github.com/dhdmstjs/portfolio.git
+	url = ../../Documents/aSeniorProject/final/
 [submodule "arproject"]
 	path = arproject
-	url = https://github.com/dhdmstjs/portfolio.git
+	url = ../../Documents/arproject/
